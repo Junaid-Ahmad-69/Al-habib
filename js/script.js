@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $(".slider-hold").slick({
+        infinite:true,
+        autoplay:true,
+        dots:true,
+        arrows:false,
+        slideToShow:1,
+        slideToScroll:1,
+        autoplaySpeed:3000,
+    });
+});
+$(document).ready(function(){
+    $(".latest-slider-hold").slick({
+        infinite:true,
+        autoplay:true,
+        dots:false,
+        arrows:false,
+        slideToShow:1,
+        slideToScroll:1,
+        autoplaySpeed:2000,
+    });
+});
